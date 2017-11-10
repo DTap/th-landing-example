@@ -32,4 +32,36 @@ padding-top: 50px;
   justify-content: center;
   color: green;
   text-align: center;
+  font-family: "Impact", sans-serif;
+  font-size: 50px;
+  transition: 0.5s;
+}
+
+@media (max-width: 1000px) {
+  .landing {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .landing {
+  background-image:  url("../images/mountain-lake.jpeg");
+  }
+}
+ .row {
+   display: flex;
+ }
+
+.col-3 {
+  width: 33.33%;
+}
+
+@media (max-width: 700px) {
+  .row {
+    display: block;
+  }
+
+  .col-3 {
+    width: 100%;
+  }
 }
